@@ -28,7 +28,7 @@ The protocol is based on:
 3. **Pseudorandom function families** for efficient masking
 
 ### Protocol Steps
-1. **Setup Phase**: 
+1. **Setup Phase**:
    - Sender generates l = log₂(N) key pairs: (K¹⁰, K¹¹), ..., (Kˡ⁰, Kˡ¹)
    - Each key pair corresponds to a level in the binary tree
 
