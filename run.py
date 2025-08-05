@@ -44,6 +44,6 @@ if __name__ == "__main__":
     print(f"Original message was:     {all_messages[receiver_choice].decode('utf-8')}")
 
     if result == all_messages[receiver_choice]:
-        print("\n✅ Success! The recovered message is correct.")
+        print("\nSuccess! The recovered message is correct.")
     else:
-        print("\n❌ Failure! The recovered message is incorrect.")
+        print("\nFailure! The recovered message is incorrect.")
