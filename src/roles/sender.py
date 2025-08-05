@@ -1,7 +1,6 @@
 import os
-from core.prf import PRF
-from utils.bitops import int_to_bitlist, xor_bytes, random_bytes
-
+from ..core.prf import PRF
+from ..utils.bitops import int_to_bitlist, xor_bytes, random_bytes
 
 class OTSender:
     def __init__(self, messages: list[bytes]):

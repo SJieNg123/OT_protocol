@@ -1,6 +1,5 @@
-from core.prf import PRF
-from utils.bitops import int_to_bitlist, xor_bytes
-from channel.ot_two_one import OTChannel
+from ..core.prf import PRF
+from ..utils.bitops import int_to_bitlist, xor_bytes
 
 class OTReceiver:
     def __init__(self, choice_index: int, l: int):
@@ -13,7 +12,7 @@ class OTReceiver:
     def obtain_keys_via_ot(
         self,
         key_pairs: list[tuple[bytes, bytes]],
-        channel: OTChannel,
+        channel,
     ):
         # This method simulates the OT protocol to obtain keys based on the choice bits
         self.selected_keys = []
