@@ -1,5 +1,5 @@
 # run.py
-from src.protocol.ot_ont_out_of_n import run_ot_1outofn_protocol
+from src.protocol.ot_one_out_of_n import run_ot_1outofn_protocol
 
 if __name__ == "__main__":
     print("--- Interactive 1-out-of-N Oblivious Transfer Simulation ---")
